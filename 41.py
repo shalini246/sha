@@ -1,5 +1,5 @@
 n=str(input())
-if(96<ord(n)<122)or(65<ord(n)<90):
+if(95<ord(n)<123)or(64<ord(n)<91):
   print("Alphabet")
 else:
   print("No")

@@ -4,4 +4,4 @@ if n in('a','e','i','o','u'):
 elif(ord(n)>=32) &(ord(n)<=47):
   print("invalid")
 else:
-  print("Consonants")
+  print("Consonant")

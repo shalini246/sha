@@ -1,7 +1,5 @@
 n=str(input())
-if n in('a','e','i','o','u'):
-  print("Vowel")
-elif(ord(n)>=32) &(ord(n)<=47):
-  print("invalid")
+if(96>ord(n)>=122) &(65>ord(n)>=90):
+  print("Alphabet")
 else:
-  print("Consonant")
+  print("invalid")
